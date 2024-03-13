@@ -1,0 +1,148 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8ab7e1; /* Dark background color */
+    color: #fff; /* Light text color for better contrast */
+}
+
+h1, h2, h3 {
+    margin: 1rem 0;
+    color: inherit; /* Inherit font color from body */
+}
+
+p {
+    margin: 0.5rem 0;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #ddd; /* Adjust link color for better visibility */
+}
+
+a:hover {
+    color: #fff; /* Lighter link color on hover */
+}
+
+/* Header styles */
+
+header {
+    background-color: #333; /* Darker header background for contrast */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+/* Main content styles */
+
+main {
+    padding: 2rem;
+    color: inherit; /* Inherit font color from body */
+}
+
+section {
+    margin-bottom: 2rem;
+    background-color: #2d2d2d; /* Slightly lighter section background */
+    padding: 1rem;
+}
+
+/* About Me section */
+
+#about p {
+    line-height: 1.5;
+}
+
+#about img {
+    width: 150px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Round profile picture */
+    margin: 0 auto 1rem; /* Center the image */
+}
+
+/* Skills section */
+
+.skills-list {
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin: 0 1rem;
+    color: #ddd;
+}
+
+.skills-list li i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: #fff; /* Lighter icon color for contrast */
+}
+
+/* Projects section */
+
+#projects {
+    text-align: center; /* Center the "Coming Soon!" text */
+}
+
+/* Contact section */
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#contact label {
+    margin-bottom: 0.5rem;
+    color: inherit;
+}
+
+#contact input, #contact textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: #333; /* Darker background for input fields */
+    color: #fff; /* Light text color for input fields */
+}
+
+#contact textarea {
+    height: 100px;
+}
+
+#contact button {
+    background-color: #4CAF50; /* Green button color */
+    color: #fff; /* White button text color */
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#contact button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #111; /* Darkest background for footer */
+    padding: 1rem;
+    text-align: center;
+    color: #ddd;
+}
