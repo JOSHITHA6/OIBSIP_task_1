@@ -44,7 +44,9 @@
 .lens{
     width: 500px;
 }
-
+.topright .making{
+    width: 400px;
+}
 
 .section2{
     padding: 73px;
@@ -118,8 +120,9 @@
     padding: 73px;
 }
 
-footer{
-    padding: 23px;
+.main-footer{
+    background-color:orange ;
+    padding: 40px 5%;
     text-align: center;
 }
 .buttons{
