@@ -14,7 +14,8 @@ convertBtn.addEventListener('click', function() {
             return;
         }
         converted = tempValue * 9 / 5 + 32;
-        convertedTemp.textContent = `${tempValue}°C is equal to ${converted.toFixed(2)}°F`;
+        converted_kel=tempValue+273.15;
+        convertedTemp.textContent = `${tempValue}°C is equal to ${converted.toFixed(2)}°F and is also equal to=${converted_kel.toFixed(2)}°K`;
     } else if (unit === 'fahrenheit') {
         if (isNaN(tempValue)) {
             convertedTemp.textContent = 'Please enter a valid number.';
@@ -28,7 +29,7 @@ convertBtn.addEventListener('click', function() {
             return;
         }
         // Conversion formula for Kelvin
-        converted = tempValue + 273.15;
+        converted = tempValue - 273.15;
         convertedTemp.textContent = `${tempValue}°K is equal to ${converted.toFixed(2)}°C`;
     } else {
         convertedTemp.textContent = 'Please select a valid unit.';
